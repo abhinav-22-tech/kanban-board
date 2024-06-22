@@ -1,0 +1,25 @@
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #b5e9f3;
+}
+
+
+.dot.low-progress {
+    background-color: #ff4d4d;
+}
+
+.dot.medium-progress {
+    background-color: #ffcc00;
+}
+
+.dot.high-progress {
+    background-color: #4caf50;
+}

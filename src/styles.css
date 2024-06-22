@@ -1,0 +1,27 @@
+body {
+  font-family: Lato, sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: auto;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.task-drawer-container{
+  display: flex;
+  flex: 2;
+}
+
+.board-container{
+  flex: 1;
+}

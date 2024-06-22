@@ -1,0 +1,175 @@
+/* .task-drawer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    
+} */
+
+.task-drawer {
+    right: 0;
+    top: 10px;
+    height: 97vh;
+    width: 300px;
+    background-color: #fff;
+    /* transform: translateX(-100%); */
+    transition: right .2s cubic-bezier(0.820, 0.085, 0.395, 0.895);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 6000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.task-overlay {
+    position: fixed;
+    right: -800px;
+}
+
+.drawer-content {
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.close-button {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(85 92 93);
+}
+
+.drawer-input,
+.drawer-textarea,
+.drawer-select-priority {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.drawer-options {
+    font-size: 14px;
+}
+
+/* .drawer-options-priority {
+    width: 25px;
+    height: 25px;
+    border-radius: 10%;
+    padding: 1px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: rgba(38, 50, 56, .1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.drawer-options-priority-text {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawer-options-priority-text.low {
+    background-color: grey;
+}
+
+.drawer-options-priority-text.normal {
+    background-color: rgb(20, 143, 20);
+}
+
+.drawer-options-priority-text.medium {
+    background-color: rgb(44, 44, 211);
+}
+
+.drawer-options-priority-text.high {
+    background-color: rgb(219, 152, 27);
+}
+
+.drawer-options-priority-text.critical {
+    background-color: rgb(224, 44, 44);
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskDetails-label {
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    display: flex;
+    gap: 5px;
+}
+
+.taskDetails-label.red {
+    background-color: #f44336;
+    color: #fff
+}
+
+.taskDetails-label.green {
+    background-color: #4caf50;
+    color: #fff
+}
+
+.taskDetails-label.blue {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.label-button {
+    background-color: rgba(38, 50, 56, 0.1);
+    padding: 1px 8px;
+    border: 1px solid rgba(38, 50, 56, 0.1);
+    border-radius: 10px;
+    color: rgb(85 92 93);
+    font-size: 27px;
+    cursor: pointer;
+}
+
+
+.drawer-save-button {
+    padding: 8px 16px;
+    background-color: #1c6870;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.drawer-save-button:hover {
+    background-color: #124d53;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .task-drawer {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .task-drawer {
+        width: 100%;
+    }
+}
