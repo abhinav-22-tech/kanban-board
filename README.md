@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Kanban Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive Kanban Board application built with React and Redux, featuring drag-and-drop functionality, custom labels, and detailed task management.
 
-## Available Scripts
+![Kanban-board](https://github.com/abhinav-22-tech/kanban-board/blob/main/public/Demo.PNG)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- _Drag and Drop:_ Easily move tasks between columns and within the same column using drag-and-drop functionality.
+- _Responsive Design:_ Fully responsive layout that works across desktops and tablets.
+- _Task Management:_ Create, update, and delete tasks with detailed descriptions and progress tracking.
+- _Custom Labels:_ Add and manage custom labels for tasks with various colors.
+- _Priority Management:_ Set task priority with a unique "L Low" option.
+- _Redux Integration:_ State management using Redux and Redux Toolkit for efficient data flow.
+- _Drawer Interface:_ Edit task details, including descriptions, labels, and priorities, using a drawer interface.
+- _Progress Bar:_ Visualize task progress with a colorful dotted progress bar.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Click here to see the live demo](https://kanban-board-ten-kohl.vercel.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. _Clone the repository:_
+   ```bash
+   git clone https://github.com/abhinav-22-tech/kanban-board.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. _Navigate into the project directory:_
+   ```bash
+   cd kanban-board
+   ```
 
-### `npm run eject`
+3. _Install dependencies:_
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
+- React
+- Redux
+- HTML/CSS
+- JavaScript
+- Redux Toolkit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+  Contributions are welcome! Please fork the repository and submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
+This project would not have been possible without the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React** - JavaScript library for building user interfaces.
+- **Redux** - State management library for JavaScript applications.
+- **Redux Toolkit** - Official, opinionated, batteries-included toolset for efficient Redux development.
+- **React DnD** - Drag and Drop for React.
+- **Material-UI** - React components for faster and easier web development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- Special thanks to the developers and maintainers of these open-source projects for their contributions to the community. -->
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
